@@ -37,6 +37,10 @@ public class SignUpPage extends AppCompatActivity {
                 String name = nameField.getText().toString();
                 String email = emailField.getText().toString();
                 String password = passwordField.getText().toString();
+
+                if (name.equals("") || email.equals("") || password.equals("")) {
+
+                }
             }
         });
     }
