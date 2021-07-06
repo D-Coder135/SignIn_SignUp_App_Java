@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     EditText emailField, passwordField;
@@ -40,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
                 String password = passwordField.getText().toString();
 
                 if (email.equals("") || password.equals("")) {
-
+                    Toast.makeText(MainActivity.this, "Please Fill All The Fields!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
