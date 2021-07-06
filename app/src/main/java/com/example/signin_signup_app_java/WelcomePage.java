@@ -21,6 +21,7 @@ public class WelcomePage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(WelcomePage.this, MainActivity.class);
+                startActivity(intent);
             }
         });
     }
