@@ -17,5 +17,7 @@ public class SignUpPage extends AppCompatActivity {
         nameField = findViewById(R.id.editTextTextPersonName3);
         emailField = findViewById(R.id.editTextTextPersonName4);
         passwordField = findViewById(R.id.editTextTextPersonName5);
+        signupButton = findViewById(R.id.button3);
+
     }
 }
