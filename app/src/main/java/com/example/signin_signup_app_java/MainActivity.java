@@ -20,5 +20,6 @@ public class MainActivity extends AppCompatActivity {
         passwordField = findViewById(R.id.editTextTextPersonName2);
 
         signUpButton = findViewById(R.id.button2);
+        loginButton = findViewById(R.id.button);
     }
 }
