@@ -1,6 +1,7 @@
 package com.example.signin_signup_app_java;
 
 import android.content.Intent;
+import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
@@ -45,6 +46,7 @@ public class MainActivity extends AppCompatActivity {
                     //    I will be using an offline database.
                     SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("offlineDatabase", MODE_PRIVATE, null);
                     String data = "select * from student where email = '" + email + "' and password = '" + password + "'";
+                    Cursor cursor = sqLiteDatabase.rawQuery(data, null);
                 }
             }
         });
