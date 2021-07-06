@@ -15,6 +15,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginStart="96dp"
         android:layout_marginTop="126dp"
+        android:fontFamily="sans-serif-black"
         android:text="WELCOME"
         android:textSize="48sp" />
 </RelativeLayout>
