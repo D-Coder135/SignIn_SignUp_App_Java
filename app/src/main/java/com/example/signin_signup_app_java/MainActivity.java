@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
                         Intent intent = new Intent(MainActivity.this, WelcomePage.class);
                         startActivity(intent);
                         finish();
+                    } else {
+                        Toast.makeText(MainActivity.this, "Invalid Details!", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
