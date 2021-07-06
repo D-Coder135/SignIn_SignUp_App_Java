@@ -42,6 +42,8 @@ public class MainActivity extends AppCompatActivity {
 
                 if (email.equals("") || password.equals("")) {
                     Toast.makeText(MainActivity.this, "Please Fill All The Fields!", Toast.LENGTH_SHORT).show();
+                } else {
+
                 }
             }
         });
