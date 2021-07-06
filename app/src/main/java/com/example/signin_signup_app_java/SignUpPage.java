@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -39,7 +40,7 @@ public class SignUpPage extends AppCompatActivity {
                 String password = passwordField.getText().toString();
 
                 if (name.equals("") || email.equals("") || password.equals("")) {
-
+                    Toast.makeText(SignUpPage.this, "Please fill all the details!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
