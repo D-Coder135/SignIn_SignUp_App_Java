@@ -17,5 +17,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         emailField = findViewById(R.id.editTextTextPersonName);
+        passwordField = findViewById(R.id.editTextTextPersonName2);
     }
 }
