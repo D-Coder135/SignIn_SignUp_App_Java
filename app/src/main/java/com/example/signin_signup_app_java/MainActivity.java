@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
                     if (cursor.getCount() > 0) {
                         Toast.makeText(MainActivity.this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
+                        Intent intent = new Intent(MainActivity.this, WelcomePage.class);
                     }
                 }
             }
