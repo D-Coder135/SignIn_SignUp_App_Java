@@ -51,6 +51,8 @@ public class SignUpPage extends AppCompatActivity {
 
                     if (cursor.getCount() > 0) {
                         Toast.makeText(SignUpPage.this, "User Already Registered!", Toast.LENGTH_SHORT).show();
+                    } else {
+                        sqLiteDatabase.execSQL("insert into student values ('" + name + "', '" + email + "', '" + password + "')");
                     }
                 }
             }
