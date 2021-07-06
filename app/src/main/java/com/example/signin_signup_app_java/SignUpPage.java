@@ -35,6 +35,7 @@ public class SignUpPage extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 String name = nameField.getText().toString();
+                String email = emailField.getText().toString();
             }
         });
     }
