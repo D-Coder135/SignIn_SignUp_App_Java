@@ -14,5 +14,6 @@
         android:layout_alignParentTop="true"
         android:layout_marginStart="163dp"
         android:layout_marginTop="123dp"
-        android:text="WELCOME" />
+        android:text="WELCOME"
+        android:textSize="24sp" />
 </RelativeLayout>
