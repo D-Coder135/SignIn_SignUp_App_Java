@@ -47,6 +47,10 @@ public class MainActivity extends AppCompatActivity {
                     SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("offlineDatabase", MODE_PRIVATE, null);
                     String data = "select * from student where email = '" + email + "' and password = '" + password + "'";
                     Cursor cursor = sqLiteDatabase.rawQuery(data, null);
+
+                    if (cursor.getCount() > 0) {
+
+                    }
                 }
             }
         });
