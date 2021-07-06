@@ -18,6 +18,6 @@ public class SignUpPage extends AppCompatActivity {
         emailField = findViewById(R.id.editTextTextPersonName4);
         passwordField = findViewById(R.id.editTextTextPersonName5);
         signupButton = findViewById(R.id.button3);
-
+        backButton = findViewById(R.id.button4);
     }
 }
