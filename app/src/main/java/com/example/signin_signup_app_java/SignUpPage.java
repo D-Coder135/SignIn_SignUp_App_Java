@@ -1,6 +1,7 @@
 package com.example.signin_signup_app_java;
 
 import android.content.Intent;
+import android.database.sqlite.SQLiteDatabase;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -42,7 +43,7 @@ public class SignUpPage extends AppCompatActivity {
                 if (name.equals("") || email.equals("") || password.equals("")) {
                     Toast.makeText(SignUpPage.this, "Please fill all the details!", Toast.LENGTH_SHORT).show();
                 } else {
-
+                    SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("offlineDatabase", MODE_PRIVATE, null);
                 }
             }
         });
