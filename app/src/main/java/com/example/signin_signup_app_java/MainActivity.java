@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
                     Cursor cursor = sqLiteDatabase.rawQuery(data, null);
 
                     if (cursor.getCount() > 0) {
-
+                        Toast.makeText(MainActivity.this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
