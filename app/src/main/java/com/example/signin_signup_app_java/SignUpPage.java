@@ -1,10 +1,12 @@
 package com.example.signin_signup_app_java;
 
+import android.os.Bundle;
+import android.widget.EditText;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
 public class SignUpPage extends AppCompatActivity {
+    EditText nameField, emailField, passwordField;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
