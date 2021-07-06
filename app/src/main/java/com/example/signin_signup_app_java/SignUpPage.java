@@ -50,7 +50,7 @@ public class SignUpPage extends AppCompatActivity {
                     Cursor cursor = sqLiteDatabase.rawQuery(data, null);
 
                     if (cursor.getCount() > 0) {
-
+                        Toast.makeText(SignUpPage.this, "User Already Registered!", Toast.LENGTH_SHORT).show();
                     }
                 }
             }
