@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     //    I will be using an offline database.
                     SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("offlineDatabase", MODE_PRIVATE, null);
-
+                    String data = "select * from student where email = '" + email + "' and password = '" + password + "'";
                 }
             }
         });
