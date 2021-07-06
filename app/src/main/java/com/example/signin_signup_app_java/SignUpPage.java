@@ -30,5 +30,12 @@ public class SignUpPage extends AppCompatActivity {
                 finish();
             }
         });
+
+        signupButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
