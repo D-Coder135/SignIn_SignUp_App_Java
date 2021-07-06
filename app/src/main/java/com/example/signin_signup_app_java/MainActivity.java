@@ -52,7 +52,7 @@ public class MainActivity extends AppCompatActivity {
                         Toast.makeText(MainActivity.this, "Logged In Successfully!", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(MainActivity.this, WelcomePage.class);
                         startActivity(intent);
-
+                        finish();
                     }
                 }
             }
