@@ -44,6 +44,8 @@ public class SignUpPage extends AppCompatActivity {
                     Toast.makeText(SignUpPage.this, "Please fill all the details!", Toast.LENGTH_SHORT).show();
                 } else {
                     SQLiteDatabase sqLiteDatabase = openOrCreateDatabase("offlineDatabase", MODE_PRIVATE, null);
+                    sqLiteDatabase.execSQL("create table if not exists student (name varchar, email varchar, password varchar)");
+                    String data = "select * from student where email='" + email + "' and password = '" + password + "'";
                 }
             }
         });
