@@ -1,6 +1,7 @@
 package com.example.signin_signup_app_java;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 
@@ -19,5 +20,12 @@ public class SignUpPage extends AppCompatActivity {
         passwordField = findViewById(R.id.editTextTextPersonName5);
         signupButton = findViewById(R.id.button3);
         backButton = findViewById(R.id.button4);
+
+        backButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+            }
+        });
     }
 }
