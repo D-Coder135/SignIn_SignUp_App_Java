@@ -10,6 +10,8 @@ public class MainActivity extends AppCompatActivity {
     EditText emailField, passwordField;
     Button signUpButton, loginButton;
 
+//    I will be using an offline database.
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
