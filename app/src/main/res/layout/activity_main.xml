@@ -19,4 +19,18 @@
         android:textAllCaps="true"
         android:textSize="24sp"
         android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="226dp"
+        android:layout_marginEnd="0dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name" />
 </RelativeLayout>
