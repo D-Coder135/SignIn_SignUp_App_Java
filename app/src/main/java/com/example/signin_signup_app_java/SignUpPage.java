@@ -41,6 +41,8 @@ public class SignUpPage extends AppCompatActivity {
 
                 if (name.equals("") || email.equals("") || password.equals("")) {
                     Toast.makeText(SignUpPage.this, "Please fill all the details!", Toast.LENGTH_SHORT).show();
+                } else {
+
                 }
             }
         });
