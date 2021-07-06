@@ -55,7 +55,7 @@ public class SignUpPage extends AppCompatActivity {
                         sqLiteDatabase.execSQL("insert into student values ('" + name + "', '" + email + "', '" + password + "')");
                         Toast.makeText(SignUpPage.this, "Congratulations, User Is Registered!", Toast.LENGTH_SHORT).show();
                         Intent intent = new Intent(SignUpPage.this, MainActivity.class);
-
+                        startActivity(intent);
                     }
                 }
             }
