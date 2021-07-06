@@ -1,10 +1,12 @@
 package com.example.signin_signup_app_java;
 
+import android.os.Bundle;
+import android.widget.Button;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Bundle;
-
 public class WelcomePage extends AppCompatActivity {
+    Button logoutButton;
 
 
     @Override
