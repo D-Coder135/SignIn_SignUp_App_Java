@@ -1,0 +1,2 @@
+rootProject.name = "SignIn_SignUp_App_Java"
+include ':app'
