@@ -43,6 +43,5 @@
         android:layout_centerVertical="true"
         android:layout_marginBottom="335dp"
         android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:inputType="textPersonName" />
 </RelativeLayout>
