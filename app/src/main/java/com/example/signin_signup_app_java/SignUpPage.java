@@ -34,7 +34,7 @@ public class SignUpPage extends AppCompatActivity {
         signupButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-
+                String name = nameField.getText().toString();
             }
         });
     }
