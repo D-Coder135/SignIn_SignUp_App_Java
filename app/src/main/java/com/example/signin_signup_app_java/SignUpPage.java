@@ -48,6 +48,10 @@ public class SignUpPage extends AppCompatActivity {
                     sqLiteDatabase.execSQL("create table if not exists student (name varchar, email varchar, password varchar)");
                     String data = "select * from student where email='" + email + "' and password = '" + password + "'";
                     Cursor cursor = sqLiteDatabase.rawQuery(data, null);
+
+                    if (cursor.getCount() > 0) {
+
+                    }
                 }
             }
         });
