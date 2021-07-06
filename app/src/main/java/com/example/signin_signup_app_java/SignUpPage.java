@@ -15,5 +15,7 @@ public class SignUpPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up_page);
         nameField = findViewById(R.id.editTextTextPersonName3);
+        emailField = findViewById(R.id.editTextTextPersonName4);
+
     }
 }
